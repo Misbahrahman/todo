@@ -1,0 +1,156 @@
+body {
+    margin: 0px;
+    background-color: #1A1A1A;
+    font-family: "Inter";
+    
+  }
+  
+  nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: black;
+    height: 150px;
+  }
+  .container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #priority{
+    height: 30px;
+    background-color: #262626;
+    color: white;
+    border: none;
+  }
+  
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    width: 50%;
+    margin: auto;
+    gap: 10px;
+    padding-top: 20px;
+  }
+  
+  label {
+    /* margin-bottom: 5px; */
+    color: #4EA8DE;
+  }
+  
+  input {
+    margin-bottom: 10px;
+    padding: 8px;
+    border:none;
+    border-radius: 4px;
+    background-color: #262626;
+    color: white;
+  }
+  
+  button {
+    background-color: black;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    padding: 8px;
+    width: 30%;
+    margin: auto;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  .task{
+    color: white;
+    
+  }
+  
+  li {
+    background-color: #f9f9f9;
+    margin-bottom: 10px;
+  
+    padding: 10px;
+    border-radius: 4px solid white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .editBtn, .deleteBtn {
+    background-color: #dc3545;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    padding: 6px;
+    margin-left: 5px;
+    width: 10%;
+  
+  }
+  
+  #ctContainer{
+    margin: auto;
+    color: #0056b3;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .editBtn:hover, .deleteBtn:hover {
+    background-color: #c82333;
+  }
+  
+  .task-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .task-details {
+    margin-bottom: 12px;
+  }
+  
+  .task-name,
+  .due-date,
+  .priority {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 16px;
+    color: #fff;
+  }
+  
+  .task-actions button {
+    padding: 8px 16px;
+    margin-right: 8px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .editBtn {
+    background-color: #3498db;
+    color: #fff;
+  }
+  
+  .deleteBtn {
+    background-color: #e74c3c;
+    color: #fff;
+  }
+  
+  .doneBtn{
+    width: 10%;
+  }
+  
+  
+  
